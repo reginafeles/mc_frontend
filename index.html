@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='UTF-8'>
+    <title>AlgoBank</title>
+    <link rel='stylesheet' href='style.css'>
+    <script src='https://kit.fontawesome.com/f77600b8df.js' crossorigin='anonymous'></script>
+</head>
+<body>
+    <div class='container'>
+        <div class='left'>
+            <div class='card-wrapper'>
+                <h1>Данные карты</h1>
+                <div class='card'>
+                    <img src='/uploads/2022/11/card-bg.png'>
+                    <input class='card-number' type='number' placeholder='11 22 33'>
+                    <div class='card-holder-group'>
+                        <input class='card-holder-name' type='text' placeholder='Name'>
+                        <input class='card-holder-surname' type='text' placeholder='Surname'>
+                    </div>
+                    <div class='card-expire-group'>
+                        <input class='card-expire-month' type='number' placeholder='10'>
+                        <input class='card-expire-year' type='number' placeholder='27'>
+                    </div>
+                </div>
+            </div>
+            <div class='user-wrapper'>
+                <h1>Данные пользователя</h1>
+                <div class='user-info-group'>
+                    <p>Номер телефона</p>
+                    <input class='card-holder-phone' type='text'>
+                    <p>Электронная почта</p>
+                    <input class='card-holder-email' type='email'>
+                    <p>Пол</p>
+                    <select class='card-holder-gender'>
+                        <option value='Ж'>Женский</option>
+                        <option value='М'>Мужской</option>
+                    </select>
+                    <div class='create-card-btn'>Создать карту<i style='margin-left: 1em' class='fa-solid fa-arrow-right'></i></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class='right'>
+            <div class='get-card-info-group'>
+                <input type='number'>
+                <div class='get-card-info-btn'>Получить</div>
+            </div>
+            <div class='cards'>
+                 
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src='script.js'></script>
+</body>
+</html>
