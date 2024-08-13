@@ -9,7 +9,7 @@ class Card {
     }
     toHtml() {
         return `<div class='card-small'>
-                    <img src='/uploads/2022/11/card-bg.png'>
+                    <img src='https://static.tildacdn.com/tild6135-6639-4439-a630-313761323361/Group_10537.svg'>
                     <p>${this.number}</p>
                     <p>${this.holder.name} ${this.holder.surname}</p>
                     <p>${this.month}/${this.year}</p>
